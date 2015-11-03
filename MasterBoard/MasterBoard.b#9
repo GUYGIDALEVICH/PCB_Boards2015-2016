@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -38,7 +38,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -255,6 +255,78 @@ design rules under a new name.</description>
 <elements>
 </elements>
 <signals>
+<signal name="S$1">
+<via x="-40.64" y="-81.28" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$2">
+<via x="-38.1" y="-81.28" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$3">
+<via x="-35.56" y="-81.28" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$4">
+<via x="-33.02" y="-81.28" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$5">
+<via x="-30.48" y="-81.28" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$6">
+<via x="-27.94" y="-81.28" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$7">
+<via x="-25.4" y="-81.28" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$8">
+<via x="-22.86" y="-81.28" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$9">
+<via x="-20.32" y="-81.28" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$10">
+<via x="-17.78" y="-81.28" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$11">
+<via x="-15.24" y="-81.28" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$12">
+<via x="-12.7" y="-81.28" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$13">
+<via x="-40.64" y="-72.39" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$14">
+<via x="-38.1" y="-72.39" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$15">
+<via x="-35.56" y="-72.39" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$16">
+<via x="-33.02" y="-72.39" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$17">
+<via x="-30.48" y="-72.39" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$18">
+<via x="-27.94" y="-72.39" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$19">
+<via x="-25.4" y="-72.39" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$20">
+<via x="-22.86" y="-72.39" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$21">
+<via x="-20.32" y="-72.39" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$22">
+<via x="-17.78" y="-72.39" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$23">
+<via x="-15.24" y="-72.39" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
+<signal name="S$24">
+<via x="-12.7" y="-72.39" extent="1-16" drill="1.4" diameter="1.4224" shape="octagon"/>
+</signal>
 </signals>
 </board>
 </drawing>
