@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -608,16 +608,6 @@
 <text x="2.54" y="6.985" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4.445" y="-3.81" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="REAL_TIME_CLOCK">
-<wire x1="9.525" y1="9.525" x2="9.525" y2="-9.525" width="0.127" layer="39"/>
-<wire x1="9.525" y1="-9.525" x2="-9.525" y2="-9.525" width="0.127" layer="39"/>
-<wire x1="-9.525" y1="-9.525" x2="-9.525" y2="9.525" width="0.127" layer="39"/>
-<wire x1="-9.525" y1="9.525" x2="9.525" y2="9.525" width="0.127" layer="39"/>
-<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.127" layer="21"/>
-<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.127" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="ADAFRUIT_GPS_BREAKOUT">
@@ -745,40 +735,6 @@
 <text x="6.35" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="1" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas"/>
-</symbol>
-<symbol name="REAL_TIME_CLOCK">
-<wire x1="9.525" y1="9.525" x2="9.525" y2="-9.525" width="0.254" layer="94"/>
-<wire x1="9.525" y1="-9.525" x2="-9.525" y2="-9.525" width="0.254" layer="94"/>
-<wire x1="-9.525" y1="-9.525" x2="-9.525" y2="9.525" width="0.254" layer="94"/>
-<wire x1="-9.525" y1="9.525" x2="9.525" y2="9.525" width="0.254" layer="94"/>
-<wire x1="-7.9375" y1="-8.73125" x2="-7.9375" y2="-7.9375" width="0.254" layer="94"/>
-<wire x1="-7.9375" y1="-7.9375" x2="-7.14375" y2="-7.9375" width="0.254" layer="94"/>
-<wire x1="-7.14375" y1="-7.9375" x2="-7.14375" y2="-8.73125" width="0.254" layer="94"/>
-<wire x1="-7.14375" y1="-8.73125" x2="-7.9375" y2="-8.73125" width="0.254" layer="94"/>
-<wire x1="-5.55625" y1="-8.73125" x2="-5.55625" y2="-7.9375" width="0.254" layer="94"/>
-<wire x1="-5.55625" y1="-7.9375" x2="-4.7625" y2="-7.9375" width="0.254" layer="94"/>
-<wire x1="-4.7625" y1="-7.9375" x2="-4.7625" y2="-8.73125" width="0.254" layer="94"/>
-<wire x1="-4.7625" y1="-8.73125" x2="-5.55625" y2="-8.73125" width="0.254" layer="94"/>
-<wire x1="-3.175" y1="-8.73125" x2="-3.175" y2="-7.9375" width="0.254" layer="94"/>
-<wire x1="-3.175" y1="-7.9375" x2="-2.38125" y2="-7.9375" width="0.254" layer="94"/>
-<wire x1="-2.38125" y1="-7.9375" x2="-2.38125" y2="-8.73125" width="0.254" layer="94"/>
-<wire x1="-2.38125" y1="-8.73125" x2="-3.175" y2="-8.73125" width="0.254" layer="94"/>
-<wire x1="-0.79375" y1="-8.73125" x2="-0.79375" y2="-7.9375" width="0.254" layer="94"/>
-<wire x1="-0.79375" y1="-7.9375" x2="0" y2="-7.9375" width="0.254" layer="94"/>
-<wire x1="0" y1="-7.9375" x2="0" y2="-8.73125" width="0.254" layer="94"/>
-<wire x1="0" y1="-8.73125" x2="-0.79375" y2="-8.73125" width="0.254" layer="94"/>
-<wire x1="1.5875" y1="-8.73125" x2="1.5875" y2="-7.9375" width="0.254" layer="94"/>
-<wire x1="1.5875" y1="-7.9375" x2="2.38125" y2="-7.9375" width="0.254" layer="94"/>
-<wire x1="2.38125" y1="-7.9375" x2="2.38125" y2="-8.73125" width="0.254" layer="94"/>
-<wire x1="2.38125" y1="-8.73125" x2="1.5875" y2="-8.73125" width="0.254" layer="94"/>
-<circle x="-7.14375" y="7.14375" radius="1.5875" width="0.254" layer="94"/>
-<circle x="7.14375" y="-7.14375" radius="1.5875" width="0.254" layer="94"/>
-<text x="-4.7625" y="7.14375" size="1.27" layer="95">RTC MODULE</text>
-<text x="-7.14375" y="-6.35" size="1.27" layer="95" rot="R90">SDA</text>
-<text x="-4.7625" y="-6.35" size="1.27" layer="95" rot="R90">SCL</text>
-<text x="-2.38125" y="-6.35" size="1.27" layer="95" rot="R90">SQW</text>
-<text x="0" y="-6.35" size="1.27" layer="95" rot="R90">GND</text>
-<text x="2.38125" y="-6.35" size="1.27" layer="95" rot="R90">5V</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -913,18 +869,6 @@
 <connect gate="G$1" pin="1" pad="+"/>
 <connect gate="G$1" pin="2" pad="-"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="REAL_TIME_CLOCK">
-<gates>
-<gate name="G$1" symbol="REAL_TIME_CLOCK" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="REAL_TIME_CLOCK">
 <technologies>
 <technology name=""/>
 </technologies>
